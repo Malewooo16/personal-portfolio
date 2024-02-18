@@ -675,7 +675,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: #c0392b !important;
 }
 .progress-bar.progress-bar-3 {
-  background-color: #d35400 !important;
+  background-color: #070707 !important;
 }
 .progress-bar.progress-bar-4 {
   background-color: #8e44ad !important;
@@ -684,21 +684,21 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: #27ae60 !important;
 }
 
-.chart {
+.chart, .node-chart  , .html-chart , .mySql-chart {
   width: 160px;
   height: 160px;
   margin: 0 auto 40px auto;
   position: relative;
   text-align: center;
 }
-.chart span {
+.chart span , .node-chart span , .html-chart span , .mySql-chart span {
   position: absolute;
   top: 50%;
   left: 0;
   margin-top: -30px;
   width: 100%;
 }
-.chart span strong {
+.chart span strong ,.node-chart span strong , .html-chart span strong , .mySql-chart span strong {
   display: block;
 }
 .chart canvas {

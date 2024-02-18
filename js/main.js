@@ -113,6 +113,36 @@
 			size: 160,
 			animate: 1000
 		});
+
+		$('.node-chart').easyPieChart({
+			scaleColor: false,
+			lineWidth: 4,
+			lineCap: 'butt',
+			barColor: 'green',
+			trackColor:	"#f5f5f5",
+			size: 160,
+			animate: 1000
+		});
+
+		$('.html-chart').easyPieChart({
+			scaleColor: false,
+			lineWidth: 4,
+			lineCap: 'butt',
+			barColor: 'orange',
+			trackColor:	"#f5f5f5",
+			size: 160,
+			animate: 1000
+		});
+
+		$('.mySql-chart').easyPieChart({
+			scaleColor: false,
+			lineWidth: 4,
+			lineCap: 'butt',
+			barColor: '#0B0B45',
+			trackColor:	"#f5f5f5",
+			size: 160,
+			animate: 1000
+		});
 	};
 
 	var skillsWayPoint = function() {
